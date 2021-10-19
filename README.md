@@ -1,0 +1,2 @@
+## Sanity Template SvelteKit Basic
+

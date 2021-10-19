@@ -1,0 +1,13 @@
+{
+  "name": "sanity-template-sveltekit-basic",
+  "version": "0.0.0",
+  "description": "Sanity Starter for SvelteKit",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build:sanity && npm run build:web",
+    "build:web": "sveltekit build",
+    "build:sanity": "cd studio && npx sanity build ../public/studio -y && cd .."
+  },
+  "author": "Antony Jones",
+  "license": "MIT"
+}
