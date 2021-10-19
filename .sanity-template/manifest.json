@@ -1,7 +1,7 @@
 {
   "version": 2, 
-  "title": "A Descriptive Title for your Starter",
-  "description": "A short description for your starter (maybe a couple sentences)",
+  "title": "SvelteKit + Vercel Sanity Starter",
+  "description": "Sanity Starter using SvelteKit, Vercel, and PNPM",
   "previewMedia": {
     "type": "image",
     "src": ".sanity-template/assets/svelte-logo.svg",
@@ -11,7 +11,12 @@
     {
       "id": "vercel",
       "name": "Vercel",
-      "url": "https://vercel.com/"
+      "url": "https://vercel.com"
+    },
+    {
+      "id": "pnpm",
+      "name": "PNPM",
+      "url": "https://pnpm.io/"
     },
     {
       "id": "sveltekit",
