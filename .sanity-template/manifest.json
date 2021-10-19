@@ -4,7 +4,7 @@
   "description": "A short description for your starter (maybe a couple sentences)",
   "previewMedia": {
     "type": "image",
-    "src": "assets/svelte-logo.svg",
+    "src": ".sanity-template/assets/svelte-logo.svg",
     "alt": "SvelteKit"
   },
   "technologies": [
