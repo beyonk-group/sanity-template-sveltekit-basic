@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "npm run build:sanity && npm run build:web",
-    "build:web": "sveltekit build",
-    "build:sanity": "cd studio && npx sanity build ../public/studio -y && cd .."
+    "build:web": "cd web && npm run build && cd ..",
+    "build:sanity": "cd studio && npx sanity build ../studio -y && cd ..",
+    "preinstall": "npx only-allow pnpm"
   },
   "author": "Antony Jones",
   "license": "MIT"

@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
-    "preview": "svelte-kit preview"
+    "preview": "svelte-kit preview",
+    "preinstall": "npx only-allow pnpm"
   },
   "devDependencies": {
     "@sveltejs/kit": "next",
